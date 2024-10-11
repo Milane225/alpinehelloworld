@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        IMAGE_NAME = "${PARAM_IMAGE_NAME}"                    /* alpinehelloworld par exemple **/
+        IMAGE_NAME = "${PARAM_IMAGE_NAME}"                    /* alpinehelloworld par exemple */
         APP_EXPOSED_PORT = "${PARAM_PORT_EXPOSED}"            /* 80 par défaut **/
         APP_NAME = "${PARAM_APP_NAME}"                        /* eazyapp par exemple */
         IMAGE_TAG = "${PARAM_IMAGE_TAG}"                      /* tag docker, par exemple latest */
